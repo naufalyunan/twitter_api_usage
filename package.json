@@ -1,0 +1,25 @@
+{
+  "name": "twitter_api_usage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=dev&& node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naufalyunan/twitter_api_usage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naufalyunan/twitter_api_usage/issues"
+  },
+  "homepage": "https://github.com/naufalyunan/twitter_api_usage#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "twitter-api-sdk": "^1.1.0"
+  },
+  "type": "module"
+}
